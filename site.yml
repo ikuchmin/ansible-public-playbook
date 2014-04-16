@@ -1,0 +1,16 @@
+---
+- hosts: example.com
+  roles:
+    - border
+    - ospf-member
+    - common
+
+- hosts: second.com
+  roles:
+    - ospf-member
+    - common
+
+- hosts: three.com
+  roles:
+    - ospf-member
+    - common

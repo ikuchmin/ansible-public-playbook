@@ -1,0 +1,8 @@
+example.com:
+  - reservedID: [200, 201, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 400, 401, 402]
+
+second.com:
+  - reservedID: [300, 301, 400, 401, 402]
+
+three.com:
+  - reservedID: [400, 401, 402]
