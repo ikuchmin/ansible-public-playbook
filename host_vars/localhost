@@ -1,0 +1,18 @@
+---
+reservedID: [200, 201]
+interfaces:
+  - name: "lo:0"
+    sysconfig:
+      ...
+  - name: eth0
+    sysconfig:
+      ...
+    ospf:
+      ...
+    additional:
+      border: yes
+  - name: eth1
+    sysconfig:
+      ...
+    additional:
+      border: yes

@@ -1,0 +1,9 @@
+---
+# Created facts
+# - id: 
+#     kernel:
+#       name: internal_networks
+#     ospf:
+#       scan_time: 20
+#       import: none
+#       export: all
